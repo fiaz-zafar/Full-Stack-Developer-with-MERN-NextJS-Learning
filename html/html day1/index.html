@@ -1,0 +1,178 @@
+<!-- Introduction to HTML -->
+
+<!-- Structure of a web page -->
+
+<!-- The Tree Structure -->
+
+<!-- HTML Boilerplate -->
+
+<!-- <!DOCTYPE
+html>
+Tells browser "this is
+HTML5"
+The label on a food package telling you what's inside -->
+<!DOCTYPE html>
+<!-- HTML is a skeleton language for creating web pages -->
+
+<html lang="en">
+
+    <!-- Head is the brain -->
+<head>
+
+    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8"> This ensures your page can correctly display any character — emojis, special symbols, or non-English languages like Hindi or Japanese. Without it, text can appear
+as broken symbols (called "mojibake"). -->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" ...> . This tells mobile browsers to render the
+page at the device's actual width instead of zooming out — like adjusting a photo to fit your
+phone screen perfectly instead of showing a tiny, zoomed-out version. -->
+
+
+    <!-- <title> Sets the text shown in the browser tab, not on the page. Compare this to a book's spine
+label — it tells you what the book is before you even open it. -->
+    <title>HTML Day 1</title>
+
+    <!-- HEAD : Metadata = "data about the data." It doesn't display on the page — it configures how the page
+behaves and appears.
+Think of the <head> like the settings menu of a mobile app. You don't see the settings menu on
+your home screen, but it controls the language, display, and identity of the app. -->
+</head>
+
+<!-- Body is the physical structure of the page.The <body> Section — The Visible Canvas
+Everything a visitor sees — headings, paragraphs, images, buttons — lives in <body> . -->
+<body>
+
+    <!-- HTML Tags and Elements -->
+
+    <h2>States of Matter</h2>
+    <!-- Writing "Hello World"
+This is your first full, real HTML document — combining everything from <head> and <body>
+into one file.
+File Naming Rules:
+Never use spaces in filenames ( hello world.html ❌ )
+Use helloworld.html or hello-world.html ✅
+Spaces in filenames cause broken links when your project grows (browsers and servers
+often replace spaces with %20 , which gets messy fast)
+
+Organize Like a Filing Cabinet
+Keep a dedicated folder structure, e.g.: Documents > WebDevelopment > Class1 > helloworld.html -->
+
+
+
+<ul>
+
+<!-- The strong element represents strong importance, seriousness, or urgency for its contents.[turns the word into BOLD] -->
+<li><strong>Solid:</strong> materials like Iron (Fe)</li>
+<li><strong>Liquid:</strong> materials like Water (H2O)</li>
+<li><strong>Gas:</strong> materials like Oxygen (O2)</li>
+</ul>
+
+ <!-- Practice Task 1 -->
+<p>My favorite programming languages are</p>
+<ul>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Java</li>
+</ul>
+
+<p>JavaScript is used for web development. Python is used for data science. Java is used for
+Android apps.</p>
+
+<!-- Practice Task 2 -->
+ <p>HTML is the skeleton of a every webpage</p>
+
+<!-- Nesting & Hierarchy — Class Exercise
+Nesting means placing tags in a logical order of importance, just like a book's table of contents:
+<h1> = Book Title (only one per page, ideally)
+<h2> = Chapter Title
+<h3> – <h6> = Section headings, getting progressively smaller
+<p> = Regular paragraph text
+<b> = Bold text inside a paragraph, for emphasis (like highlighting a keyword with a
+marker)  -->
+
+<!-- Heading Elements -->
+<h1>
+    The Solar System
+</h1>
+<h2>Inner Planets</h2>
+<h3>Earth</h3>
+<h3>Mars</h3>
+<h2>Outer Planets</h2>
+<h3>Jupiter</h3>
+
+<!-- Practice Task 3 -->
+ <h1>My Favorite Hobbies</h1>
+ <h2>Indoor Hobbies</h2>
+ <h3>Reading</h3>
+ <h3>Cooking</h3>
+ <h2>Outdoor Hobbies</h2>
+    <h3>Hiking</h3>
+    <h3>Fishing</h3>
+
+    <!-- The Paragraph Element -->
+     <p>The Sun is a star at the center of the Solar System.</p>
+<p>It is a nearly perfect sphere of hot plasma.</p>
+
+<!-- Practice Task 4 -->
+ <p>My favorite hobbies are reading,</p>
+ <p> cooking,</p>
+ <p>hiking,</p>
+ <p>fishing.</p>
+
+ <!-- Nesting -->
+
+  <!-- The Rule: "First In, Last Out" -->
+
+<!-- If you open a tag inside another tag, you must close the inner tag before you close the outer tag. -->
+ <p>Earth is the <b>third planet</b> from the Sun.</p>
+
+ <!-- The Russian Nesting Dolls Analogy
+You cannot close the big doll until you've successfully closed the smaller doll inside it. Tags work
+the same way — the innermost tag must always close first. -->
+
+<!-- Practice Task 5 -->
+ <p>My favorite programming language is <b>JavaScript</b>.</p>
+ <h1>My Solar Systems</h1>
+ <h2>Mars</h2>
+ <p>Also known as the <b>Red Planet</b>.</p>
+ <h2>Jupiter</h2>
+ <p>Also known as the <b>Gas Giant</b>.</p>
+<!-- Notice the pattern: <h1> → <h2> → <p> → <h2> → <p> . This is a repeatable rhythm you'll use
+constantly: big heading, sub-heading, description, sub-heading, description. -->
+
+ <!-- Full Recap Exercise -->
+  <h1>My Favorite Foods</h1>
+  <h2>Why i like it:</h2>
+  <p>My favorite food is pizza because it is delicious and comes in many <b>varieties.</b></p>
+  
+</body>
+</html>
+<!-- Self-Check Before Submitting:
+ 
+Filename has no spaces
+<!DOCTYPE html> is the very first line
+<meta charset="UTF-8"> and <title> are inside <head>
+All visible content is inside <body>
+Headings go in logical order (don't jump from <h1> straight to <h4> )
+At least 3 words are bolded using <b> across the page
+
+Quick Reference Table:
+
+I want to... Use this tag:
+
+Declare the document type <!DOCTYPE html>
+Wrap the entire page <html>
+Add settings/metadata <head>
+Show content to users <body>
+
+I want to... Use this tag:
+
+Set the browser tab text <title>
+Support all characters/emojis <meta charset="UTF-8">
+Make text mobile-friendly <meta name="viewport" ...>
+Write a main title <h1>
+Write a sub-title <h2> to <h6>
+Write a paragraph <p>
+Emphasize a word/phrase <b> -->

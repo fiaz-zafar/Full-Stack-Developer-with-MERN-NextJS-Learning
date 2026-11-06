@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-D2</title>
+</head>
+<body>
+    <!-- Attributes, links & images -->
+     <!-- HTML Attributes -->
+      <!-- Attributes are extra pieces of information you give to HTML elements. They always go inside the
+opening tag and follow this pattern: attribute="value" -->
+name="value"
+    <!-- The name of the attribute is always followed by an equal sign and then the value of the attribute is always wrapped in quotation marks. -->
+    <!-- The value of the attribute can be a word, a number, or a URL. -->
+
+    <!--The Adjective Analogy:
+
+Think of HTML tags as nouns and attributes as adjectives:
+<car> = A car (generic, no details)
+<car color="red" speed="fast"> = A red, fast car (specific details)
+
+Similarly:
+
+<p> = A paragraph (generic)
+<p id="intro" style="color: blue;"> = A specific paragraph with an ID and blue text
+
+<!-- Common Attributes -->
+ <!-- id: Unique identifier for an element -->
+<p id="welcome-message">Hello World</p>
+<!-- class: Categorizes elements (can be reused) -->
+<div class="container">Content here</div>
+<!-- style: Inline CSS styling -->
+<h1 style="color: purple; font-size: 40px;">Big Purple Heading</h1>
+<!-- title: Tooltip text that appears on hover -->
+<p title="This shows when you hover">Hover over me</p> 
+
+<!-- Practice Task 1 -->
+ <p id="about" style="color: aquamarine;"" title="about page" >This is a paragraph about me.</p>
+ <!-- The title attribute provides a tooltip that appears when the user hovers over the element.Similar to alt, when an image cannot be displayed, the title attribute can provide alternative text. example: when mouse hovers over the paragraph text it shows the title(about page). -->
+
+<!-- Anchor Tags -->
+
+    <!-- HTML Links -->
+    <!-- The <a> tag defines a hyperlink, which is used to link from one page to another.The <a> tag (anchor) creates clickable links that connect web pages together. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.Without href, you have a portal that goes nowhere,Without text, you have an invisible portal -->
+    <a href="https://www.example.com">Visit Example.com</a>
+<!-- Link to external website -->
+    <a href="https://www.google.com">Go to Google</a>
+<!-- Link to another page in your site -->
+    <a href="about.html">About Us</a>
+<!-- Link to a section on the same page -->
+    <a href="#contact">Jump to Contact Section</a>
+
+    <!-- Target Attribute -->
+    <!-- The target attribute specifies where to open the linked document. It can take several values, including: -->
+
+     <!-- target="_blank" = Opens link in a new tab
+     target="_self" = Opens link in the same tab (default behavior) -->
+
+     <!-- Link that opens in a new tab -->
+    <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+<!-- Practice Task 2 -->
+ <a href="https://youtube.com" target="_blank">Visit YouTube</a>
+ <a href="./assignment.html" target="_self">Visit Assignment</a>
+ <a href="https://pintrest.com" target="_blank" style="color: coral;">My Favorite website</a>
+ <!-- (./) refers to the current directory, can be used to link to files in the same folder or subfolders(parent folder[.//]) on your computer -->
+
+ <!-- HTML Images -->
+    <!-- The <img> tag is used to embed an image in an HTML page. It is a self-closing tag and requires the src attribute, which specifies the path to the image file. -->
+    <img src="image.jpg" alt="Description of Image" width="500" height="600"> 
+
+
+<!-- KeyAttributes -->
+
+<!--src (Source)
+Where the image file is located: -->
+<!-- Local file in same folder -->
+<img src="photo.jpg">
+<!-- Local file in images folder -->
+<img src="images/logo.png">
+<!-- External URL -->
+<img src="https://example.com/image.jpg">
+
+<!-- alt (Alternative Text)
+A text description of the image: -->
+<img src="sunset.jpg" alt="Beautiful orange sunset over mountains">
+
+<!-- 
+Why alt is Critical
+1. Accessibility — Screen readers speak this text to blind users
+2. SEO — Google reads alt text to understand image content
+3. Backup — Shows when the image fails to load (broken link, slow connection) -->
+
+   <!-- Additional Attributes -->
+   <img src="image.jpg" alt="Description of Image" title="Image Title">
+<!-- title shows tooltip on hover -->
+   <img src="image.jpg" alt="Description of Image" width="500" height="600">
+<!-- width and height control size -->
+
+<!-- Complete Image Example -->
+ <img 
+     src="https://via.placeholder.com/300"
+     alt="A placeholder image showing 300x300 dimensions"
+     width="300"
+     height="300"
+     title="Sample placeholder"
+>
+<!-- Practice Task 3 -->
+ <img src="./images.jpg" alt="Tropical Beach" width="400" height="600" title="Vacation">
+
+<!-- Anatomy Breakdown -->
+<tagname attribute="value">content</tagname>
+<!-- Example: -->
+<a href="page.html" target="_blank">Click Here</a>
+<!-- <a> = opening tag
+     href="page.html" = attribute
+     target="_blank" = another attribute
+     Click Here = content (clickable text)
+     </a> = closing tag -->
+ 
+</body>
+</html>
