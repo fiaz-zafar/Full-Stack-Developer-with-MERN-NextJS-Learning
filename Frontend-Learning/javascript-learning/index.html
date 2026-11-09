@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Day 1</title>
+</head>
+<body>
+    <h1>JavaScript Day 1</h1>
+    <!-- 
+The error is caused by `let console.log(...)` on lines 21 and 26 of `index.html`.
+
+`let` declares variables, so JavaScript expects a variable name there—not `console.log`. Remove `let` from both calls:
+
+```js
+console.log("hello " + " " + "world");
+console.log(num1 + num2);
+```
+
+“`,` expected” is a parser error: after `let`, it interprets `console` as a variable name and expects either a comma for another variable or the end of the declaration. -->
+<!-- let console.log ("hello"); {OR} console.log ("hello"); -->
+    <script> console.log ("hello " + " " + "world");  
+        let num1 = 19;
+        let num2 = 10;
+        num1 += 1
+        num2 = num2 + 1
+         console.log (num1 + num2);
+    </script>
+</body>
+<script src="./Java Day 1/script.js"></script>
+</html>

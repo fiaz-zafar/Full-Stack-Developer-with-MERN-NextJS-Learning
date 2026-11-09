@@ -1,0 +1,45 @@
+#body{
+    background-color: blue;
+    font-family: Arial, sans-serif;
+}
+top-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    background-color: #203a8a;
+    color: white;
+}
+#top-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 65%;
+    margin: 0 auto;
+    color:aquamarine
+}
+#admission-open{
+    color: #86eeae;
+    font-weight: 900;
+}
+#nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin: 0 auto;
+}
+#logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: red;
+    
+}
+#logo-description{
+    display: flex;
+    flex-direction: column;
+ background-color: yellow;
+    justify-content: center;
+}
