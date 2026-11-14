@@ -1,18 +1,7 @@
-/* ==================================================================
-   JavaScript Day 4: String Methods & Arrays - Assignment
-   Run with:  node JavaScript_Day_4_-_Assignment.js
-   Each question is written as a comment, followed by its solution
-   inside its own { } block.
-   ================================================================== */
 
-const section = (t) => console.log("\n==================== " + t + " ====================");
-const q = (t) => console.log("\n--- " + t + " ---");
+  //  Section 1: String Methods (.trim(), Case Conversion)
 
 
-/* ==================================================================
-   Section 1: String Methods (.trim(), Case Conversion)
-   ================================================================== */
-section("Section 1: String Methods");
 
 /* Question 1: Create a variable userInput with the value
    "  HeLLo JaVaScRiPt  ". Use string methods to:
